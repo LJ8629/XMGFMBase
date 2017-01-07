@@ -1,0 +1,22 @@
+{
+  "name": "XMGFMBase",
+  "version": "0.1.0",
+  "summary": "A short description of XMGFMBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/XMGFMBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "王顺子": "123@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/XMGFMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XMGFMBase/Classes/**/*"
+}

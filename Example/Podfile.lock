@@ -1,0 +1,16 @@
+PODS:
+  - XMGFMBase (0.1.0)
+
+DEPENDENCIES:
+  - XMGFMBase (from `../`)
+
+EXTERNAL SOURCES:
+  XMGFMBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMGFMBase: 81520eb2532881d1416d1de1f76c023fe8c7a125
+
+PODFILE CHECKSUM: e8371eab28deb8695b34ce1c58dacdcb256156fa
+
+COCOAPODS: 1.2.0.beta.1
