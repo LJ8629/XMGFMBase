@@ -1,9 +1,9 @@
 {
   "name": "XMGFMBase",
   "version": "0.1.0",
-  "summary": "A short description of XMGFMBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/XMGFMBase",
+  "summary": "XMGFMBase.",
+  "description": "XMGFMBase.包含了基本的配置, 分类, 工具类等等",
+  "homepage": "https://coding.net/u/seemygo_wangshunzi/p/XMGFMBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "王顺子": "123@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/XMGFMBase.git",
+    "git": "https://git.coding.net/seemygo_wangshunzi/XMGFMBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
