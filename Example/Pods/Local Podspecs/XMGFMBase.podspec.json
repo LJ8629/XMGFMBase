@@ -1,6 +1,6 @@
 {
   "name": "XMGFMBase",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "XMGFMBase.",
   "description": "XMGFMBase.包含了基本的配置, 分类, 工具类等等",
   "homepage": "https://coding.net/u/seemygo_wangshunzi/p/XMGFMBase",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://git.coding.net/seemygo_wangshunzi/XMGFMBase.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XMGFMBase/Classes/**/*"
+  "source_files": "XMGFMBase/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
