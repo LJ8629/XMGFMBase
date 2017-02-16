@@ -14,8 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - XMGFMBase (0.2.0):
+  - XMGFMBase (0.1.0):
+    - XMGFMBase/Base (= 0.1.0)
+    - XMGFMBase/Category (= 0.1.0)
+    - XMGFMBase/Network (= 0.1.0)
+    - XMGFMBase/Tool (= 0.1.0)
+  - XMGFMBase/Base (0.1.0)
+  - XMGFMBase/Category (0.1.0)
+  - XMGFMBase/Network (0.1.0):
     - AFNetworking
+  - XMGFMBase/Tool (0.1.0)
 
 DEPENDENCIES:
   - XMGFMBase (from `../`)
@@ -26,7 +34,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  XMGFMBase: fbea92ec4b043071c50aa0ad2840c1ba3417637b
+  XMGFMBase: d1007e8400141f9e9b658d839377d9dba151b7d1
 
 PODFILE CHECKSUM: e8371eab28deb8695b34ce1c58dacdcb256156fa
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XMGFMBase'
-  s.version          = '0.4.0'
+  s.version          = '0.1.0'
   s.summary          = 'XMGFMBase.'
 
 # This description is used to generate tags and improve search results.
