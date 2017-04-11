@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		3DFC28F1645AACDA37E617D9 /* Pods-XMGFMBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMBase_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMBase_Example/Pods-XMGFMBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		47595378B9E97DAE56528962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47595378B9E97DAE56528962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMGFMBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGFMBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		7140909554BCB5845A7E653C /* Pods_XMGFMBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGFMBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96FEB9FC231776128740433E /* Pods-XMGFMBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMBase_Example/Pods-XMGFMBase_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A2CF9C9CD889DC5CE6C114A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A2CF9C9CD889DC5CE6C114A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2B65D3FF6996DB8A1534994 /* Pods-XMGFMBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMBase_Tests/Pods-XMGFMBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4590F2FA1B0638809CE8F98 /* Pods_XMGFMBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGFMBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAB1C03DF1A3E3FAEEF9157 /* XMGFMBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMGFMBase.podspec; path = ../XMGFMBase.podspec; sourceTree = "<group>"; };
+		FCAB1C03DF1A3E3FAEEF9157 /* XMGFMBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMGFMBase.podspec; path = ../XMGFMBase.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMGFMBase/XMGFMBase-Prefix.pch";
 				INFOPLIST_FILE = "XMGFMBase/XMGFMBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMGFMBase/XMGFMBase-Prefix.pch";
 				INFOPLIST_FILE = "XMGFMBase/XMGFMBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
